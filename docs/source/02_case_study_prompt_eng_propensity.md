@@ -23,8 +23,11 @@ Here we create three causal models (m1, m2, m3) with increasing complexity for e
 
 Our variables include (labeled using letters <i, e, w, y> in front of the variable names):
     - Treatment (i) variables that we have manipulated and are the _causes_ in our cause-and-effect relationships.
+
     - Outcome (e) variables that we measure to identify how they were impcated by the treatment(s) and are the _effects_ in our cause-and-effect relationships.
+
     - Confounding (w) variables that impact both the treatement and the outcome , wchih create false associations. 
+
     - Levenstein distance (y) 
 
 First model (m1) estimates the effects of the confounding variables on the binary treatment variable and the normalized Levenstein's distance. Then the second model (m2) estimates the effect of the treatment variable _i_vocab_size_  in addition to the confounding variables. Lastly, the third model (m3) estimates the effect of the outcome variable _e_n_words_ in addition to the variables from *m2*. e run these models twice for each Treatment set 1 and 2. 
@@ -36,8 +39,11 @@ In addition, we utilize the Propensity Score Matching, Propensity Score Stratifi
 
     Analyzing the outputs of the causal model.
     - The instrumental variable method estimates a mean effect of 1071.29 with p-value < 0.001. 
+
     - The propensity score mathcing method produces mean effect of 9.218
+
     - The placebo treatment refutation shows a new effect of 1041.10 compaed to the estimated effect of 1071.29 (p-value = 0).
+    
     - Correlation analysis between confounding variables shows strong correlation between some variables. For example, w_token_counts and w_n_ast_nodes are strong correlation score of 0.92 for both Pearson and Spearman methods. 
 
 
