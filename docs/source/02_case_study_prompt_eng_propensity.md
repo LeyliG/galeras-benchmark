@@ -68,6 +68,12 @@ https://causalwizard.app/inference/article/iv
 
 https://causalwizard.app/inference/article/random-common-cause#:~:text=By%20adding%20a%20random%20common%20cause%2C%20we%20introduce%20a%20new,the%20cause%20and%20the%20effect.
 
+https://www.pywhy.org/dowhy/v0.8/example_notebooks/dowhy_ihdp_data_example.html?highlight=estimate_effect
+
+https://github.com/py-why/dowhy/issues/101
+
+https://medium.com/@med.hmamouch99/exploring-causal-inference-with-dowhy-24176444c457
+
 
 
 
