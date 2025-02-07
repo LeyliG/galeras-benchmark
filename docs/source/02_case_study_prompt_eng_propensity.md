@@ -75,6 +75,7 @@ https://github.com/py-why/dowhy/issues/101
 https://medium.com/@med.hmamouch99/exploring-causal-inference-with-dowhy-24176444c457
 
 
+https://www.pywhy.org/dowhy/v0.11/user_guide/refuting_causal_estimates/refuting_effect_estimates/index.html
 
 
 
